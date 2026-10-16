@@ -1,0 +1,17 @@
+{
+  "name": "banxin-codemirror-bundle",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "@codemirror/state": "6.7.6",
+    "@codemirror/view": "6.43.13",
+    "@codemirror/commands": "6.11.1",
+    "@codemirror/language": "6.12.4",
+    "@lezer/markdown": "1.7.2",
+    "@lezer/highlight": "1.2.5",
+    "esbuild": "0.25.12"
+  },
+  "scripts": {
+    "build": "esbuild entry.mjs --bundle --minify --format=iife --target=es2019 --legal-comments=none --outfile=../codemirror.bundle.js"
+  }
+}

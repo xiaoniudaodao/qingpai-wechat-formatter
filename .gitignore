@@ -1,0 +1,30 @@
+# 依赖与构建缓存
+node_modules/
+.cache/
+dist/
+__pycache__/
+*.pyc
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# 本地设置与密钥（本项目不需要任何密钥，以防万一）
+.env
+.env.*
+!.env.example
+*.local
+
+# 日志
+*.log
+npm-debug.log*
+
+# 大文件 / 媒体素材（示例截图在 docs/screenshots，单独放行）
+*.mp4
+*.mov
+*.webm
+*.zip
+*.dmg
